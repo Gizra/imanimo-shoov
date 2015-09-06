@@ -6,6 +6,6 @@ Feature: Blog post
   @javascript
   Scenario: Visit blog post page
     Given I am an anonymous user
-    When  I visit "claudette-dress#/Black"
+    When  I visit "claudette-dress#/Stone"
     And   I select size and add to cart
     Then  I should wait for the text "Product added to bag" to "appear"
