@@ -19,8 +19,8 @@ class FeatureContext extends MinkContext implements SnippetAcceptingContext {
    * @When I select size and add to cart
    */
   public function iSelectSizeAndAddToCart() {
-    // Wait for the "XS" size to appear
-    $xpath = '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div[1]/ul/li[1]/span[1]';
+    // Wait for the "S" size to appear
+    $xpath = '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div[1]/ul/li[2]/span[1]';
     $this->waitForXpathNode($xpath);
 
     // Select the size
